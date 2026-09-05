@@ -1,0 +1,12 @@
+{
+  "name": "Jack of all Blades",
+  "short_name": "Jack of all Blades",
+  "description": "Mowing and lawn care in Watertown, SD.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B130B",
+  "theme_color": "#3D6B3D",
+  "icons": [
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
