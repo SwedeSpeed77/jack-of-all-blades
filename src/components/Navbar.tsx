@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X } from "lucide-react";
+import { Wordmark } from "@/components/Wordmark";
 
 const E = [0.23, 1, 0.32, 1] as [number, number, number, number];
 
@@ -29,7 +30,7 @@ export function Navbar() {
           href="#main-content"
           className="font-heading text-lg font-semibold tracking-tight"
         >
-          Jack of all Blades
+          <Wordmark />
           <span className="ml-2 hidden text-xs font-normal uppercase tracking-[0.18em] text-muted sm:inline">
             Watertown, SD
           </span>

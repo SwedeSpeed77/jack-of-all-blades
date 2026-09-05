@@ -1,3 +1,5 @@
+import { Wordmark } from "@/components/Wordmark";
+
 export function Footer() {
   return (
     <footer className="border-t border-line/60 bg-surface/40">
@@ -5,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <p className="font-heading text-lg font-semibold tracking-tight">
-              Jack of all Blades
+              <Wordmark />
             </p>
             <p className="mt-2 text-sm leading-relaxed text-muted">
               Watertown, SD 57201
