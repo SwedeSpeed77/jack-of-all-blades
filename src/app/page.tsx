@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
+import { MowerStripes } from "@/components/MowerStripes";
 import { ServicesSection } from "@/components/ServicesSection";
 import { AboutSection } from "@/components/AboutSection";
 import { TrustSection } from "@/components/TrustSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <main id="main-content">
         <HeroSection />
+        <MowerStripes />
         <ServicesSection />
         <AboutSection />
         <TrustSection />
